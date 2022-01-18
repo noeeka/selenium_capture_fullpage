@@ -1,5 +1,6 @@
-title: Selenium with python to capture full page 
-tags: selenium,python,automation,testing
+# Selenium with python to capture full page
+
+selenium,python,automation,testing
 
 
 
