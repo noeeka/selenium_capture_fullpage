@@ -2,7 +2,11 @@ import time
 from docx import Document
 from docx.shared import Inches
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import datetime
+import sys
+import codecs
+sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
+starttime = datetime.datetime.now()
 
 lists = ['bh', 'bd', 'bn', 'in', 'id', 'my', 'pk', 'sg', 'lk', 'vn', 'hk', 'cn', 'tw', 'ci', 'fk', 'gm', 'gh', 'je',
          'je', 'jo', 'ke', 'np', 'ng', 'sl', 'tz', 'ae', 'ug', 'zm', 'bw', 'zw']
@@ -59,10 +63,6 @@ for x in lists:
     document.sections[0].left_margin = Inches(0.3)
     document.sections[0].bottom_margin = Inches(0.3)
 
-
-
-
-
     document.add_picture(image_desktop_full, height=Inches(9))
 
     new_section = document.add_section()
@@ -70,4 +70,6 @@ for x in lists:
 
 # document.add_page_break()
 document.save('report.docx')
-print("In total:" + str(len(lists)))
+endtime = datetime.datetime.now()
+print("In total:",len(lists))
+print("Total running time is :",(endtime - starttime).seconds)
