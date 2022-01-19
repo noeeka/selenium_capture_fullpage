@@ -10,13 +10,13 @@ This script used selenium and webdriver to capture full page in Desktop & Mobile
 
 ## Runtime Enviroment
 
-|  Module  | Name    |   Version  |     |
-| --- | --- | --- | --- |
-| OS   | Windows   |   10+  |     |
-|   Brower | Chrome    |   97.0.4692.71   |     |
-|   Webdriver| chromedriver   |   98.0.4758.48  |     |
-|   Python| X64  |   3.9  |     |
-|   Selenium|  |   4.1.0  |     |
+|  Module  | Name    |   Version  |     
+| --- | --- | --- |
+| OS   | Windows   |   10+  |    
+|   Brower | Chrome    |   97.0.4692.71   |    
+|   Webdriver| chromedriver   |   98.0.4758.48  |  
+|   Python| X64  |   3.9  |    
+|   Selenium|  |   4.1.0  |    
 
 ## pre-requirement
 
