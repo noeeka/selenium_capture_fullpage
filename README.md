@@ -1,7 +1,8 @@
 # Selenium with python to capture full page
-
-selenium,python,automation,testing
-
+<abbr title="selenium">selenium</abbr>
+<abbr title="python">python</abbr>
+<abbr title="automation">automation</abbr>
+<abbr title="testing">testing</abbr>
 
 
 ## Introduction
