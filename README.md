@@ -24,6 +24,8 @@ This script used selenium and webdriver to capture full page in Desktop & Mobile
 | --- | --- |
 |   docx  |  0.8.11   |
 |   selenium |  4.1.0   |
+|   pypiwin32 |  223   |
+|   smtplib |  latest   |
 
 ``` apache
 pip install -v docx == 0.8.11
