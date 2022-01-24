@@ -30,6 +30,7 @@ This script used selenium and webdriver to capture full page in Desktop & Mobile
 ``` apache
 pip install -v docx == 0.8.11
 pip install -v selenium == 4.1.0
+pip install pypiwin32
 ```
 
 ## How to run
